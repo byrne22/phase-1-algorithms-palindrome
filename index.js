@@ -1,6 +1,21 @@
+function reverse(word){
+	return word.split("").reverse().join("")
+}
 function isPalindrome(word) {
   // Write your algorithm here
+  // regexone.com
+  const rev = reverse(word)
+  return word === rev;
+//   let reversed = word.split(" ").reverse().join(" ")
+//   if(reversed === word){
+// 	return true
+//   }else{
+// 	return false
+//   }
+
+
 }
+// isPalindrome("racecar")
 
 /* 
   Add your pseudocode here
